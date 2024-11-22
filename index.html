@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza Khan</title>
+    <link rel="shortcut icon" href="assets/HKlogo.webp" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+
+    <style>
+
+        @keyframes appear {
+            from{
+                opacity: 0;
+                scale: 0.1;
+            }
+            to{
+                opacity: 1;
+                scale: 1;
+            }
+        }
+
+        img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .image-1{
+            width: 200px;
+            height: auto;
+        }
+        .image-2{
+            width: 200px;
+            height: auto;
+        }
+        .image-3{
+            width: 200px;
+            height: auto;
+        }
+        .image-4{
+            width: 200px;
+            height: auto;
+        }
+
+        .rounded-rectangle {
+        width: 1000px;
+        height: 750px;
+        background-color: #545961;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        border: 5px solid #000000;
+
+        /* ANIMATION */
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+        }
+
+        .container {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+        }
+
+        .image { /* PROJECT IMAGES */
+        width: 700px;
+        height: auto;
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-right: 30px;
+
+        /* ANIMATION */
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+    }
+    
+
+        .rounded-rectangle2 {
+        width: 1000px;
+        height: 750px;
+        background-color: #545961;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+        margin-left: 0px;
+        margin-bottom: 50px;
+        border: 5px solid #000000;
+        /* ANIMATION */
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+        }
+
+        .small-rectangle {
+        width: 550px;
+        height: 200px;
+        background-color: #545961;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 0px;
+        margin-bottom: 50px;
+        border: 5px solid #000000;
+        flex: 1;
+        border: 1px solid #ccc;
+        padding: 15px;
+        box-sizing: border-box;
+        }
+
+        .image-github{
+            width: 300px;
+            height: auto;
+        }
+        .image-gmail{
+            width: 200px;
+            height: auto;
+        }
+        .image-linkedin{
+            width: 200px;
+            height: auto;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <section class = "hidden">
+        <h1>This is</h1>
+        <h1>Muhammad Hamza Khan</h1>
+    </section>
+
+    <section class = "hidden">
+        <h2>About me</h2>
+        <div class ="containerAboutMe">
+            <div class="small-rectangle">
+                <div class="text-box">
+                    <div class="hobbies-title">Who Am I?</div>
+                    I am a second-year Computer Engineering student at Queen's University
+                    with a strong interest in hardware and software. I am passionate about
+                    exploring cybersecurity and ethical hacking, driven by my curiosity to
+                    uncover and solve complex digital challenges.
+                </div>
+            </div>
+            <div class="small-rectangle">
+                <div class="text-box">
+                    <div class="hobbies-title">Hobbies</div>
+                    In my free time, I enjoy staying active and challenging myself both
+                    physically and mentally. My hobbies include watching UFC and training
+                    in boxing, playing basketball, and working out to maintain a healthy
+                    and disciplined lifestyle.
+                </div>
+            </div>
+            <div class="small-rectangle">
+                <div class="text-box">
+                    <div class="hobbies-title">Interests</div>
+                    I have a wide range of interests in technology, including computer
+                    hardware, networking, software development. I enjoy working with
+                    platforms like Arduino and Raspberry Pi to bring ideas to life. Above
+                    all, I am passionate about cybersecurity, exploring ways to secure
+                    and protect digital systems.
+                </div>
+            </div>
+        </div>
+        <div class="logos">
+            <div class="image-1">
+                <img src="assets/Ball.jpg" alt="Could not load image">
+            </div>
+            <div class="image-2">
+                <img src="assets/Gloves.jpeg" alt="Could not load image">
+            </div>
+            <div class="image-3">
+                <img src="assets/UFC.png" alt="Could not load imagee">
+            </div>
+            <div class="image-4">
+                <img src="assets/cyberLogo.jpg" alt="Could not load image">
+            </div>
+        </div>
+    </section>
+
+
+<!-- LATER ON, IF YOU WANT TO ADD A TAB, ADD ROUNDED RECTANGLE OR 2 FOR LEFT OR RIGHT -->
+ <!-- CHANGE TEXT, THEN SAVE ONLINE IMAGE TO ASSETS FOLDER, ADD IMG CLASS AND DIRECT ADD ADDRESS -->
+<section>
+<h1>Projects</h1>
+<div class="container">
+
+    <div class="rounded-rectangle">
+        Designed an automated medication dispenser to support individuals with Alzheimer's
+        and Parkinson's. Built precise hardware using SolidWorks, programmed
+        Arduino-powered mechanisms, and developed a user-friendly Android app, creating an
+        innovative solution to improve medication adherence and enhance daily healthcare
+        routines
+    </div>
+
+    <!-- Image -->
+    <img class="image" src="assets/AutomatedPillDispenser.jpg" alt="Could not load image">
+</div>
+
+<div class="container">
+    
+    <!-- Image-->
+    <img class="image" src="assets/FaceRecognition.jpg" alt="Could not load image">
+
+    <div class="rounded-rectangle2">
+        Developed a face recognition-based gym access system to enhance efficiency and user
+        experience. Designed a mobile app with Android Studio and Flutter for user registration
+        and face data submission, utilizing Raspberry Pi and Firebase for secure, real-time
+        access control and data storage
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="rounded-rectangle">
+        Designed an automated fluid dispenser for preparing five concentrations of substances
+        in test tubes. Modeled the system with SolidWorks, integrated Arduino with motors for
+        precise dispensing, and developed algorithms to ensure accurate concentrations,
+        improving efficiency and reliability in laboratory settings.
+    </div>
+
+    <!-- Image -->
+    <img class="image" src="assets/AFD101.jpg" alt="Could not load image">
+</div>
+</section>
+ <!-- Contact me Page -->
+ <section class="Contactme">
+    <h1>Contact Me</h1>
+    <p>Get in touch with me at</p>
+
+    
+    <div class="ContactLogos-container">
+        <div class="image-github">
+            <img src="assets/GitHubLogo.png" alt="Could not load image">
+        </div>
+        <div class="image-gmail">
+            <img src="assets/GmailLogo.webp" alt="Could not load image">
+        </div>
+        <div class="image-linkedin">
+            <img src="assets/LinkedInLogo.webp" alt="Could not load image">
+         </div>
+    </div>
+
+    <div class="button-container">
+        <button type="button" onclick="location.href='https://github.com/HamzaPrograms'">
+            Github
+        </button>
+    
+        <button type="button" onclick="location.href='mailto:hamza51166@gmail.com'">
+            Gmail
+        </button>
+    
+        <button type="button" onclick="location.href='https://www.linkedin.com/in/hamza-khan-520b832a5/?trk=opento_sprofile_details'">
+            LinkedIn
+        </button>
+    </div>
+</section>
+
+</body>
+
+</html>
